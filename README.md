@@ -1,0 +1,2 @@
+# Jeeves
+The system consists of an Arduino connected to various home appliances[Illustrated in this case using LEDs]. The system has an accompanying mobile app that connects to the hardware over bluetooth. The app converts the user's voice input into text ;using the Google Voice API;and tranfers it over to the Arduino where the string is parsed(Some simple Natural Language Processing) and the appropriate action is taken i.e. the appropriate appliance is turned on/off
